@@ -1,66 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artemis Lab - My OTP Authenticator App - 2FA</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #3498db;
-            color: white;
-            padding: 1em 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2em;
-        }
-        h1 {
-            color: white;
-        }
-        p {
-            margin-bottom: 1.5em;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        .download-button {
-            display: inline-block;
-            background-color: #3498db;
-            color: white;
-            padding: 0.5em 1em;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        footer {
-            background-color: #f5f5f5;
-            padding: 1em 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to <span style="color: white;">Artemis Lab</span></h1>
-    </header>
-    <div class="container">
-        <h2>My OTP Authenticator App - 2FA</h2>
-        <p>A leading free app designed for two-factor authentication (2FA) or 2-step verification. Safeguard your logins, passwords, and personal data from hackers with ease!</p>
-        <a class="download-button" href="https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password" target="_blank">Download Android Version</a>
-        <p>Contact us at <a href="mailto:bravkidd@outlook.com">bravkidd@outlook.com</a></p>
-    </div>
-    <footer>
-        &copy; 2023 Artemis Lab. All rights reserved.
-    </footer>
-</body>
-</html>
 
+<head>
+    <meta charset="utf-8">
+    <title>Artemis Lab</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="apps, posters">
+    <meta name="description" content="this is services page.">
+
+    <meta property="og:site_name" content="services">
+    <meta property="og:url" content="https://services.com">
+    <meta property="og:title" content="services">
+    <meta property="og:description" content="this is services page.">
+    <link rel="stylesheet" href="./dist/main.css">
+    <script src="./dist/main.js"></script>
+    <link rel="shortcut icon" href="./favicon.ico">
+</head>
+
+<body>
+    <div id="home">
+        <div class="header">
+            <div class="logo" onclick="openUrl('')">
+                <img src="./images/logo.png" style="height: 100%;margin-right: 5px;" alt="logo"></img>
+                <div>Artemis Lab</div>
+            </div>
+            <div class="text">
+                <a href="#apps">PRODUCT</a>
+                <!-- <a href="#apps">APPS</a> -->
+                <a href="#chooseUs">FEATURES</a>
+                <a href="#aboutUs">ABOUT US</a>
+                <select id="guide" value="0">
+                    <option value="0" style="display: none;">2FA GUIDE</option>
+                    <option value="1">Instagram</option>
+                    <option value="2">Facebook</option>
+                </select>
+            </div>
+        </div>
+        <div class="title">
+            <div>
+                Authenticator App
+                </br>
+                2FA <span style="font-weight: 100;">I</span> MFA <span style="font-weight: 100;">I</span> OTP
+            </div>
+            <a
+                href="https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password&hl=en&gl=us">
+                <img class="googleplay" src="./images/googleplay.jpg" alt="google play">
+            </a>
+            <div class="detail">
+                <div class="item">
+                    <div class="h">4.7
+                        <img style="width: 0.825rem;" src="./images/star.png" alt="">
+                    </div>
+                    <div class="p">2K reviews</div>
+                </div>
+                <div class="split"></div>
+                <div class="item">
+                    <div class="h">1M+</div>
+                    <div class="p">Downloads</div>
+                </div>
+                <div class="split"></div>
+                <div class="item">
+                    <div class="h">1M+</div>
+                    <div class="p">User</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div id="apps" class="session">
+            <div class="title">
+                <div class="shadow shadow_h"></div>
+                <div class="text">Best <span style="font-weight: 100;">I</span> Simple <span
+                        style="font-weight: 100;">I</span> Private</div>
+            </div>
+            <div class="discript strong">
+                2FA Authenticator, free and safe to protect all your accounts with OTP(One Time Password).
+            </div>
+            <div class="discript">
+                &emsp;<strong>· </strong>Support Facebook, Instagram, Google, Twitter, Amazon, Twitch, Discord, Coinbase, ..., .
+            </div>
+            <div class="discript">
+                &emsp;<strong>· </strong>Trusted by 1M+ global users. Recommended by industry experts for its outstanding security and high user satisfaction.
+            </div>
+        </div>
+        <div id="chooseUs" class="session">
+            <div class="title">
+                <div class="shadow shadow_z"></div>
+                <div class="text">Key Features</div>
+            </div>
+            <div class="discript strong">
+                The App is extremely lightweight of only 6M bytes with rich functionalities on top of the basic OTP generator.
+            </div>
+            <div class="discript">
+                &emsp;<strong>· </strong>Setup 2FA by scanning QR code, simplify all the complex process.
+                <br>
+                &emsp;<strong>· </strong>Group management for unlimited accounts. 
+                <br>
+                &emsp;<strong>· </strong>Backup and restore 2FA accounts offline without any accounts needed.
+                <br>
+                &emsp;<strong>· </strong>Pin lock protection.
+            </div>
+        </div>
+        <div id="aboutUs" class="session">
+            <div class="title">
+                <div class="shadow shadow_l"></div>
+                <div class="text">About Us</div>
+            </div>
+            <div class="discript strong">
+                A team commited to deliver the best mobile security products and services for you. 
+            </div>
+            <div class="discript">
+                Artemis Lab aims to offer highest protection for your online accounts while taking your privacy and convenience as our utmost priority. 
+            </div>
+            <div class="discript">
+                We value your feedback and provide 7x24 support for any of your inquiry. We will keep refining our products and provide the best user experience.
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div>Artemis Lab</div>
+        <div style="display: flex; align-items: center;">
+            <a href="./Privacy.html">Privacy</a>｜
+            <a href="./Terms of Services.html">Terms of Services</a>
+        </div>
+        <div>
+            Contact us:
+            <img class="mail" src="./images/mail.png" alt="mail">
+            <a href="mailto:bravkidd@outlook.com">bravkidd@outlook.com</a>
+        </div>
+    </div>
+
+    <img src="./images/backTop.png" alt="Back to Top" class="backTop" onclick="backTop()">
+</body>
