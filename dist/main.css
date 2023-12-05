@@ -126,13 +126,23 @@
  .box {
     background-image: url(../images/background.jpg);
     background-size: 100% 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
  }
 
  #apps {
     width: 50%;
     align-self: end;
+    -webkit-align-self: end;
     height: 25.14rem;
     padding: 2.6rem 6rem 0 2rem;
 }
@@ -140,6 +150,7 @@
 #chooseUs {
     width: 60%;
     align-self: start;
+    -webkit-align-self: start;
     height: 28.14rem;
     padding: 2.6rem 1rem 0 3rem;
 }
@@ -147,6 +158,7 @@
  #aboutUs {
      width: 65%;
      align-self: end;
+     -webkit-align-self: end;
      height: 22.14rem;
      padding: 0rem 3rem 0 2rem;
  }

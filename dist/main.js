@@ -66,4 +66,7 @@ window.addEventListener("load", ()=>{
             window.open('./detail.html', '_self')
         }
     }
+    if(window.location.href.endsWith('detail.html')){
+        location.hash = 'main'
+    }
 })
