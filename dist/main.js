@@ -34,6 +34,9 @@ function addDomList(json){
     dom.appendChild(box)
     let main = document.getElementById('main')
     main.appendChild(dom)
+    if(sessionStorage.getItem('clickApp')){
+        location.hash = 'main'
+    }
 }
 
 function openUrl(addr){
@@ -43,6 +46,11 @@ function openUrl(addr){
 
 function backTop(){
     window.scrollTo(0,0)
+}
+
+function fetchError(){
+    let err = document.getElementById('error')
+    err.style.display = 'block'
 }
 
 (() => {
@@ -63,10 +71,7 @@ window.addEventListener("load", ()=>{
             let text = dom.options[index].text
             sessionStorage.setItem('clickApp', text)
             dom.options[0].selected = true
-            window.open('./detail.html', '_self')
+            window.open('./detail.html?app=' + text, '_self')
         }
-    }
-    if(window.location.href.endsWith('detail.html')){
-        location.hash = 'main'
     }
 })

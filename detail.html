@@ -5,13 +5,12 @@
         <title>Artemis Lab</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="apps, posters">
-        <meta name="description" content="this is services page.">
+        <meta name="keywords" content="apps, 2FA">
+        <meta name="description" content="this is Artemis Lab page.">
 
-        <meta property="og:site_name" content="services">
-        <meta property="og:url" content="https://services.com">
-        <meta property="og:title" content="services">
-        <meta property="og:description" content="this is services page.">
+        <meta property="og:site_name" content="Artemis Lab">
+        <meta property="og:title" content="Artemis Lab">
+        <meta property="og:description" content="this is Artemis Lab page.">
         <link rel="stylesheet" href="./dist/main.css">
         <script src="./dist/main.js"></script>
         <link rel="shortcut icon" href="./favicon.ico">
@@ -71,11 +70,21 @@
 
         <img src="./images/backTop.png" alt="Back to Top" class="backTop" onclick="backTop()">
         
+        <div id="error" style="display: none;">
+            <div class="title">error</div>
+            <div class="msg">:( Sorry, the data is lost, please check the link</div>
+        </div>
+
         <script>
-            let name = sessionStorage.getItem('clickApp')
+            let searchURL = window.location.search
+            searchURL = searchURL.substring(1, searchURL.length);  
+            let name = searchURL.split("&")[0].split("=")[1]
             fetch('./data/' + name + '.json')
                 .then((response) => response.json())
-                .then((json) => addDomList(json));
+                .then((json) => addDomList(json))
+                .catch(() => {
+                    fetchError()
+                })
         </script>
     </body>
 </html>
