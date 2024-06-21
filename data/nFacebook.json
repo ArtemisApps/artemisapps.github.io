@@ -15,11 +15,11 @@
             },
             {
                 "tag": "li",
-                "content": "1. Install <a href=\"https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password\">Authenticator App - 2FA</a>"
+                "content": "1. Install <a href=\"https://play.google.com/store/apps/details?id=authenticator.app.otp.mfa.authentication\">Authenticator App - 2FA</a>"
             },
             {
                 "tag": "p",
-                "content": "The best way to manage all your 2FA (two-factor authentication) accounts is to use the<a href=\"https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password\">\"Authenticator App - 2FA\"</a>. This app offers numerous advantages, such as providing a centralized platform for all your 2FA accounts and allowing you to backup and restore effortlessly. Download by click <a href=\"https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password\">\"Authenticator App - 2FA\"</a> on your device, or simply search for it in your device's GooglePlay."
+                "content": "The best way to manage all your 2FA (two-factor authentication) accounts is to use the<a href=\"\">\"Authenticator App - 2FA\"</a>. This app offers numerous advantages, such as providing a centralized platform for all your 2FA accounts and allowing you to backup and restore effortlessly. Download by click <a href=\"\">\"Authenticator App - 2FA\"</a> on your device, or simply search for it in your device's GooglePlay."
             },
             {
                 "tag": "li",
@@ -99,7 +99,7 @@
             },
             {
                 "tag": "li",
-                "content": "11. If you have another phone installed <a href=\"https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password\">Authenticator App - 2FA</a>, then use Authenticator app on the other phone to scan the QR code. If no, then capture the screenshot with the QR code and switch to <a href=\"https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password\">Authenticator App - 2FA</a> on the same phone. Now in our Authenticator app, you can scan the screenshot by locating it in the album."
+                "content": "11. If you have another phone installed <a href=\"https://play.google.com/store/apps/details?id=authenticator.app.otp.mfa.authentication\">Authenticator App - 2FA</a>, then use Authenticator app on the other phone to scan the QR code. If no, then capture the screenshot with the QR code and switch to <a href=\"https://play.google.com/store/apps/details?id=authenticator.app.otp.mfa.authentication\">Authenticator App - 2FA</a> on the same phone. Now in our Authenticator app, you can scan the screenshot by locating it in the album."
             },
             {
                 "tag": "img",
@@ -111,7 +111,7 @@
             },
             {
                 "tag": "li",
-                "content": "12. Assume you scan the QR code successfully, it means you already configure the security key in our authentication app. You should see the 6-digit code in <a href=\"https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password\">Authenticator App - 2FA</a> changed every 30 seconds."
+                "content": "12. Assume you scan the QR code successfully, it means you already configure the security key in our authentication app. You should see the 6-digit code in <a href=\"https://play.google.com/store/apps/details?id=authenticator.app.otp.mfa.authentication\">Authenticator App - 2FA</a> changed every 30 seconds."
             },
             {
                 "tag": "li",
@@ -203,7 +203,7 @@
             },
             {
                 "tag": "li",
-                "content": "10. Open <a href=\"https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password\">Authenticator App - 2FA</a> on your phone and scan the QR code."
+                "content": "10. Open <a href=\"https://play.google.com/store/apps/details?id=authenticator.app.otp.mfa.authentication\">Authenticator App - 2FA</a> on your phone and scan the QR code."
             },
             {
                 "tag": "li",
@@ -215,7 +215,7 @@
             },
             {
                 "tag": "li",
-                "content": "12. Find the generated 6-digit code on <a href=\"https://play.google.com/store/apps/details?id=otp.authenticator.app.authentication.password\">Authenticator App - 2FA</a>, then type it into the Facebook text field."
+                "content": "12. Find the generated 6-digit code on <a href=\"https://play.google.com/store/apps/details?id=authenticator.app.otp.mfa.authentication\">Authenticator App - 2FA</a>, then type it into the Facebook text field."
             },
             {
                 "tag": "li",
