@@ -19,7 +19,7 @@
             },
             {
                 "tag": "p",
-                "content": "The best way to manage all your 2FA (two-factor authentication) accounts is to use the<a href=\"\">\"Authenticator App - 2FA\"</a>. This app offers numerous advantages, such as providing a centralized platform for all your 2FA accounts and allowing you to backup and restore effortlessly. Download by click <a href=\"\">\"Authenticator App - 2FA\"</a> on your device, or simply search for it in your device's GooglePlay."
+                "content": "The best way to manage all your 2FA (two-factor authentication) accounts is to use the<a href=\"https://play.google.com/store/apps/details?id=authenticator.app.otp.mfa.authentication\">\"Authenticator App - 2FA\"</a>. This app offers numerous advantages, such as providing a centralized platform for all your 2FA accounts and allowing you to backup and restore effortlessly. Download by click <a href=\"https://play.google.com/store/apps/details?id=authenticator.app.otp.mfa.authentication\">\"Authenticator App - 2FA\"</a> on your device, or simply search for it in your device's GooglePlay."
             },
             {
                 "tag": "li",
